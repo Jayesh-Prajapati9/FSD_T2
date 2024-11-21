@@ -1,0 +1,25 @@
+<head>
+    <style>
+    .totltip
+    {
+        display:block;
+    }
+    .text
+    {
+        visibility:hidden;
+        width:120px;
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        padding:5px;
+        position:absolute;
+        border: 1px solid green;
+    }
+    .tooltip:hover .text{visibility: visible;}
+    </style>
+    </head>
+    <body>
+        <div class="tooltip">Hover me
+            <span class="text">Hidden msg</span>
+    </div>
+    </body>

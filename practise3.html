@@ -1,0 +1,42 @@
+<!-- write html and css script to design one table having 3 col and 5 rows 
+add random data 
+while hovering it should be expanded around 50% horizontaly, background color and font color will become red and white. 
+expansion shld take place in 2 second -->
+<head>
+    
+    <style>
+        tr{
+            width: 500px;
+            transition-property:transform;
+            transition-duration:2s;
+        }
+        tr:hover
+        {
+            transform:scaleX(1.5);
+            background-color: red;color:white
+        }
+    </style>
+    </head>
+    <body>
+       <table rules=all style="border:2px solid black;width:50%;">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+       </table>
+    </body>
+    

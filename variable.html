@@ -1,0 +1,17 @@
+<head>
+    <style>
+        :root{
+            --col:blue;--bcol:lightgrey;--dcol:32px;--acol:dashed;
+        }
+        h1{
+            --col:green;color:var(--col);
+        }
+        p{
+            color:var(--col);background-color:var(--bcol);font-size:var(--dcol);border:var(--acol);
+        }
+    </style>
+</head>
+<body>
+    <h1>Example clash of global vs local</h1>
+    <p>var() shold insert to custom value</p>
+</body>
